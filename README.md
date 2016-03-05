@@ -1,2 +1,2 @@
-# Java
-Java course at FER
+# Java Course
+Java course at FER.
