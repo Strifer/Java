@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd-cpd>
+   <duplication lines="20" tokens="162">
+      <file line="28"
+            path="/home/ebin/Desktop/HW06Problem1/src/main/java/hr/fer/zemris/java/simplecomp/impl/instructions/InstrAdd.java"/>
+      <file line="27"
+            path="/home/ebin/Desktop/HW06Problem1/src/main/java/hr/fer/zemris/java/simplecomp/impl/instructions/InstrMul.java"/>
+      <codefragment><![CDATA[	public InstrAdd(List<InstructionArgument> arguments) {
+		if (arguments.size() != 3) {
+			throw new IllegalArgumentException("Expected 3 arguments!");
+		}
+		if (!arguments.get(0).isRegister()) {
+			throw new IllegalArgumentException("Type mismatch for argument 0!");
+		}
+		if (!arguments.get(1).isRegister()) {
+			throw new IllegalArgumentException("Type mismatch for argument 1!");
+		}
+		if (!arguments.get(2).isRegister()) {
+			throw new IllegalArgumentException("Type mismatch for argument 2!");
+		}
+		this.indexRegister1 = ((Integer) arguments.get(0).getValue())
+				.intValue();
+		this.indexRegister2 = ((Integer) arguments.get(1).getValue())
+				.intValue();
+		this.indexRegister3 = ((Integer) arguments.get(2).getValue())
+				.intValue();
+	}]]></codefragment>
+   </duplication>
+   <duplication lines="17" tokens="128">
+      <file line="26"
+            path="/home/ebin/Desktop/HW06Problem1/src/main/java/hr/fer/zemris/java/simplecomp/impl/instructions/InstrMove.java"/>
+      <file line="25"
+            path="/home/ebin/Desktop/HW06Problem1/src/main/java/hr/fer/zemris/java/simplecomp/impl/instructions/InstrTestEquals.java"/>
+      <codefragment><![CDATA[	public InstrMove(List<InstructionArgument> arguments) {
+		if (arguments.size()!=2) {
+			throw new IllegalArgumentException("Expected 2 arguments!");
+		}
+		if (!arguments.get(0).isRegister()) {
+			throw new IllegalArgumentException("Type mismatch for argument 0!");
+		}
+		if (!arguments.get(1).isRegister()) {
+			throw new IllegalArgumentException("Type mismatch for argument 1");
+		}
+		this.registerIndex1=((Integer) arguments.get(0).getValue()).intValue();
+		this.registerIndex2=((Integer) arguments.get(1).getValue()).intValue();
+	}
+	
+	@Override
+	public boolean execute(Computer computer) {
+		Object value = computer.getRegisters().getRegisterValue(registerIndex2);]]></codefragment>
+   </duplication>
+</pmd-cpd>

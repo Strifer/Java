@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src/main/java"/>
+	<classpathentry kind="src" path="src/test/java"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/4"/>
+	<classpathentry kind="lib" path="weblib/jsp-api.jar" sourcepath="/home/ebin/tomcat/apache-tomcat-8.0.23-src.zip"/>
+	<classpathentry kind="lib" path="weblib/servlet-api.jar" sourcepath="/home/ebin/tomcat/apache-tomcat-8.0.23-src.zip"/>
+	<classpathentry kind="lib" path="web/aplikacija2/WEB-INF/lib/javax.servlet.jsp.jstl-1.2.1.jar" sourcepath="/home/ebin/tomcat/javax.servlet.jsp.jstl-1.2.1-sources.jar"/>
+	<classpathentry kind="lib" path="web/aplikacija2/WEB-INF/lib/javax.servlet.jsp.jstl-api-1.2.1.jar" sourcepath="/home/ebin/tomcat/javax.servlet.jsp.jstl-api-1.2.1-sources.jar"/>
+	<classpathentry kind="lib" path="web/aplikacija2/WEB-INF/lib/jcommon-1.0.23.jar" sourcepath="/home/ebin/Desktop/jfreechart-1.0.19-fx-javadocs">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/home/ebin/Desktop/jfreechart-1.0.19-fx-javadocs%20(1).zip!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="web/aplikacija2/WEB-INF/lib/jfreechart-1.0.19.jar" sourcepath="/home/ebin/Desktop/jfreechart-1.0.19-fx-javadocs">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/home/ebin/Desktop/jfreechart-1.0.19-fx-javadocs%20(1).zip!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="web/aplikacija2/WEB-INF/lib/poi-3.12-20150511.jar" sourcepath="/home/ebin/Desktop/poi-src-3.12-20150511.zip"/>
+	<classpathentry kind="output" path="web/aplikacija2/WEB-INF/classes"/>
+</classpath>

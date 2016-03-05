@@ -1,0 +1,42 @@
+# Ovaj program ispisuje prvih 5 brojeva od korisnikovog unosa, upit broja traje sve dok korisnik ne upiše točan broj
+
+			load r0, @msgunos		;uvodna poruka
+			load r1, @msggreska		;poruka za gresku
+			load r2, @brojac		;koliko puta ispisujemo
+			load r3, @nula			;nula za usporedbu
+			
+@petlja:	echo r0					;upitaj korisnika za unos
+			iinput @spremi			;pokusaj procitati integer
+			jumpIfTrue @gotovo		;ako si procitao idi dalje
+			echo r1					;ako nisi ispisi pogresku
+			jump @petlja			;ponovljaj upit
+				
+				
+@gotovo:	load r0, @spremi		;ako si gotov spremi broj
+			load r1, @sljedeci		;ucitaj prvi dio info poruke (koliko brojeva ispisujemo)
+			echo r1					;ispisi prvi dio
+			echo r2					;ispisi koliko brojeva
+			load r1, @brojeva		;ucitaj drugi dio info poruke
+			echo r1					;ispisi
+			load r1, @newline		;ucitaj newline za ispis
+				
+@petlja2:	increment r0			;uvecaj broj
+			echo r0					;ispisi
+			echo r1					;novi red
+			decrement r2			;smanji brojac
+			testEquals r2, r3		;ako je brojac na nuli
+			jumpIfTrue @kraj		;gotovi smo
+			jump @petlja2			;inače ponavljaj
+				
+@kraj: 		halt					;kraj
+	
+@msgunos: 		DEFSTR "Unesite početni broj: "
+@msggreska:		DEFSTR "Unos nije moguće protumačiti kao cijeli broj.\n"
+@sljedeci:		DEFSTR "Sljedećih "
+@brojeva:		DEFSTR " brojeva je:\n"
+@newline:		DEFSTR "\n"
+@brojac:		DEFINT 5
+@nula:			DEFINT 0 
+@spremi:		DEFINT 0
+				
+			

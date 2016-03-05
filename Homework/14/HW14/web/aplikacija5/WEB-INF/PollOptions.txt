@@ -1,0 +1,12 @@
+1	The Beatles	https://www.youtube.com/watch?v=z9ypq6_5bsg	1	20
+2	The Platters	https://www.youtube.com/watch?v=vfBboBz3yoc	1	15
+3	The Beach Boys	https://www.youtube.com/watch?v=zSjPZqRLH70&list=PLApyhECLlb9_aN-cmPOtU5IlrCu-v5ftG	1	33
+4	The Four Seasons	https://www.youtube.com/watch?v=y8yvnqHmFds	1	5
+5	The Marcels	https://www.youtube.com/watch?v=qoi3TH59ZEs	1	4
+6	The Everly Brothers	https://www.youtube.com/watch?v=tbU3zdAgiX8	1	20
+7	The Mamas And The Papas	https://www.youtube.com/watch?v=N-aK6JnyFmk	1	30
+8	Facebook	https://www.facebook.com	2	6
+9	Google+	https://plus.google.com	2	6
+10	Twitter	https://twitter.com/	2	3
+11	LinkedIn	https://www.linkedin.com/	2	1
+12	Tumblr	https://www.tumblr.com/	2	2

@@ -1,0 +1,2 @@
+query jmbag="0000000003"
+exit

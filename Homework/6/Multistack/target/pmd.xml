@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd version="5.2.3" timestamp="2015-04-25T00:18:12.542">
+<file name="/home/ebin/Desktop/Multistack/src/main/java/hr/fer/zemris/java/custom/scripting/exec/ValueWrapper.java">
+<violation beginline="209" endline="209" begincolumn="52" endcolumn="56" rule="UselessParentheses" ruleset="Unnecessary" package="hr.fer.zemris.java.custom.scripting.exec" class="ValueWrapper" method="performOperation" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/unnecessary.html#UselessParentheses" priority="4">
+Useless parentheses.
+</violation>
+<violation beginline="213" endline="213" begincolumn="52" endcolumn="56" rule="UselessParentheses" ruleset="Unnecessary" package="hr.fer.zemris.java.custom.scripting.exec" class="ValueWrapper" method="performOperation" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/unnecessary.html#UselessParentheses" priority="4">
+Useless parentheses.
+</violation>
+</file>
+</pmd>

@@ -1,0 +1,4 @@
+		 load r7, @poruka	;ucitaj poruku u r7
+		 echo r7				;ispisi poruku na konzolu
+		 halt				;zaustavlja rad procesora
+@poruka: DEFSTR "Hello World!\n"

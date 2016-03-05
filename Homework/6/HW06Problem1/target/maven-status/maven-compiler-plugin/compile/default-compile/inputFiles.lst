@@ -1,0 +1,17 @@
+/home/ebin/Desktop/HW06Problem1/src/main/java/hr/fer/zemris/java/simplecomp/impl/instructions/InstrLoad.java
+/home/ebin/Desktop/HW06Problem1/src/main/java/hr/fer/zemris/java/simplecomp/impl/ExecutionUnitImpl.java
+/home/ebin/Desktop/HW06Problem1/src/main/java/hr/fer/zemris/java/simplecomp/impl/instructions/InstrTestEquals.java
+/home/ebin/Desktop/HW06Problem1/src/main/java/hr/fer/zemris/java/simplecomp/impl/instructions/InstrIncrement.java
+/home/ebin/Desktop/HW06Problem1/src/main/java/hr/fer/zemris/java/simplecomp/impl/instructions/InstrEcho.java
+/home/ebin/Desktop/HW06Problem1/src/main/java/hr/fer/zemris/java/simplecomp/impl/RegistersImpl.java
+/home/ebin/Desktop/HW06Problem1/src/main/java/hr/fer/zemris/java/simplecomp/impl/instructions/InstrDecrement.java
+/home/ebin/Desktop/HW06Problem1/src/main/java/hr/fer/zemris/java/simplecomp/impl/ComputerImpl.java
+/home/ebin/Desktop/HW06Problem1/src/main/java/hr/fer/zemris/java/simplecomp/impl/instructions/InstrJump.java
+/home/ebin/Desktop/HW06Problem1/src/main/java/hr/fer/zemris/java/simplecomp/impl/instructions/InstrMul.java
+/home/ebin/Desktop/HW06Problem1/src/main/java/hr/fer/zemris/java/simplecomp/impl/instructions/InstrAdd.java
+/home/ebin/Desktop/HW06Problem1/src/main/java/hr/fer/zemris/java/simplecomp/impl/instructions/InstrIinput.java
+/home/ebin/Desktop/HW06Problem1/src/main/java/hr/fer/zemris/java/simplecomp/Simulator.java
+/home/ebin/Desktop/HW06Problem1/src/main/java/hr/fer/zemris/java/simplecomp/impl/instructions/InstrHalt.java
+/home/ebin/Desktop/HW06Problem1/src/main/java/hr/fer/zemris/java/simplecomp/impl/instructions/InstrMove.java
+/home/ebin/Desktop/HW06Problem1/src/main/java/hr/fer/zemris/java/simplecomp/impl/instructions/InstrJumpIfTrue.java
+/home/ebin/Desktop/HW06Problem1/src/main/java/hr/fer/zemris/java/simplecomp/impl/MemoryImpl.java

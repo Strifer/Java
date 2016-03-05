@@ -1,0 +1,2 @@
+1	Favorite band poll	Of the following bands, which is your favorite? Please click the link to vote.
+2	Favorite social network poll	Of the following social networks, which is your favorite? Please click the link to vote.
